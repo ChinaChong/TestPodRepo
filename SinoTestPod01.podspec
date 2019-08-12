@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestPod01"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "NoxmobiSDKTest"
 
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
@@ -30,6 +30,6 @@ Pod::Spec.new do |spec|
   spec.frameworks = "Foundation", "UIKit"
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  spec.dependency "Google-Mobile-Ads-SDK", "7.48.0"
+  #spec.dependency "Google-Mobile-Ads-SDK", "7.48.0"
 
 end
