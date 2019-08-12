@@ -9,13 +9,13 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestPod01"
-  spec.version      = "1.0.4"
+  spec.version      = "1.0.5"
   spec.summary      = "NoxmobiSDKTest"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
   spec.author       = { "nox_chong" => "chinachong1943@163.com" }
 
-  spec.platform     = :ios, "8.0"
+  spec.platform     = :ios, "9.0"
   spec.source       = { :git => "https://github.com/ChinaChong/TestPodRepo.git", :tag => "#{spec.version}" }
   spec.source_files = "Noxmobi.framework/Headers/*.{h}" # Noxmobi.framework/Headers/*.{h,m}
 
@@ -26,6 +26,13 @@ Pod::Spec.new do |spec|
   # spec.libraries = 'iconv', 'xml2' # 设置依赖多个系统的library
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
+  spec.dependency "AppLovinSDK", "6.8.0"
+  spec.dependency "AppLovinMediationAdColonyAdapter", "3.3.8.1"
+  spec.dependency "AppLovinMediationIronSourceAdapter", "6.8.4.0.2"
+  spec.dependency "AppLovinMediationTapjoyAdapter", "12.3.1.0"
+  spec.dependency "AppLovinMediationUnityAdsAdapter", "3.1.0.1"
+  spec.dependency "AppLovinMediationVungleAdapter", "6.3.2.3"
   spec.dependency "AppLovinMediationGoogleAdapter", "7.44.0.0"
+  spec.dependency "AppLovinMediationFacebookAdapter", "5.4.0.2"
 
 end
