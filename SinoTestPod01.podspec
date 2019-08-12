@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestPod01"
-  spec.version      = "1.0.5"
+  spec.version      = "1.0.6"
   spec.summary      = "NoxmobiSDKTest"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
@@ -32,7 +32,5 @@ Pod::Spec.new do |spec|
   spec.dependency "AppLovinMediationTapjoyAdapter", "12.3.1.0"
   spec.dependency "AppLovinMediationUnityAdsAdapter", "3.1.0.1"
   spec.dependency "AppLovinMediationVungleAdapter", "6.3.2.3"
-  spec.dependency "AppLovinMediationGoogleAdapter", "7.44.0.0"
-  spec.dependency "AppLovinMediationFacebookAdapter", "5.4.0.2"
 
 end
