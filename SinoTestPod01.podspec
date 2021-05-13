@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestPod01"
-  spec.version      = "1.1.0"
+  spec.version      = "1.2.0"
   spec.summary      = "NoxmobiSDKTest"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.source_files = "Noxmobi.framework/Headers/*.{h}" # Noxmobi.framework/Headers/*.{h,m}
 
   spec.resource_bundles = {
-    'NoxmobiImagesTest' => ['NoxmobiImagesTest.bundle/*.JPG']
+    'NoxmobiResource' => ['NoxmobiResource.bundle/*.JPG']
   }
 
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
