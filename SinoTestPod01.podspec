@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "SinoTestPod01"
-  spec.version      = "1.2.0"
+  spec.version      = "1.4.3"
   spec.summary      = "NoxmobiSDKTest"
   spec.homepage     = "https://github.com/ChinaChong/TestPodRepo"
   spec.license      = "MIT"
@@ -30,7 +30,7 @@ Pod::Spec.new do |spec|
   # spec.libraries = 'iconv', 'xml2' # 设置依赖多个系统的library
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
 
-  # spec.dependency "AppLovinSDK", "6.8.0"
+  spec.dependency "AppLovinSDK", "6.8.0"
   # spec.dependency "AppLovinMediationAdColonyAdapter", "3.3.8.1"
   # spec.dependency "AppLovinMediationIronSourceAdapter", "6.8.4.0.2"
   # spec.dependency "AppLovinMediationTapjoyAdapter", "12.3.1.0"
